@@ -1,0 +1,114 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 1.4rem;
+}
+nav ul li{
+    padding: 0 30px;
+}
+
+.brand img{
+    width: 38px;
+    padding: 0 6px;
+}
+.brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.cantainer{
+    min-height: 70vh;
+    background-color: black;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 23px auto;
+    width: 65%;
+    border-radius: 12px;
+    padding: 15px;
+    background-image: url('bg3.jpg');
+       
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    margin-top: 14px;
+    font-size: 2rem;
+}
+.icon{
+    cursor: pointer;
+}
+#myproggrasbar{
+    width: 80vw;
+    /* align-items: center; */
+    cursor: pointer;
+}
+
+.songitemcantainer{
+    margin-top: 38px;
+}
+.SongItem{
+    height: 40px;
+    display: flex;
+    background-color: #fff;
+    color: black;
+    width: 40%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.SongItem img{
+    width: 40px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.text{
+    font-weight: bolder;
+}
+
+.time{
+    margin: 0 12px;
+    font-weight: bolder;
+}
+.time i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
